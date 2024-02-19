@@ -1,0 +1,25 @@
+---
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/user/public_html/
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp CNANME $DEPLOYPATH
+  - /bin/cp assets/ $DEPLOYPATH/assets/
+  - /bin/cp assets/style.css $DEPLOYPATH/assets/style.css
+  - /bin/cp assets/scripts.js $DEPLOYPATH/assets/scripts.js
+  - /bin/cp assets/img/ $DEPLOYPATH/assets/img/
+  - /bin/cp assets/img/22.webp $DEPLOYPATH/assets/img/22.webp
+  - /bin/cp assets/img/a2.png $DEPLOYPATH/assets/img/a2.png
+  - /bin/cp assets/img/comentarios/ $DEPLOYPATH/assets/img/comentarios/
+  - /bin/cp assets/img/comentarios/m11.jpeg $DEPLOYPATH/assets/img/comentarios/m11.jpeg
+  - /bin/cp assets/img/comentarios/m12.jpeg $DEPLOYPATH/assets/img/comentarios/m12.jpeg
+  - /bin/cp assets/img/comentarios/m15.jpeg $DEPLOYPATH/assets/img/comentarios/m15.jpeg
+  - /bin/cp assets/img/comentarios/m16.jpeg $DEPLOYPATH/assets/img/comentarios/m16.jpeg
+  - /bin/cp assets/img/comentarios/m17.jpeg $DEPLOYPATH/assets/img/comentarios/m17.jpeg
+  - /bin/cp assets/img/comentarios/m18.jpeg $DEPLOYPATH/assets/img/comentarios/m18.jpeg
+  - /bin/cp assets/img/comentarios/m2.jpeg $DEPLOYPATH/assets/img/comentarios/m2.jpeg
+  - /bin/cp assets/img/comentarios/m3.jpeg $DEPLOYPATH/assets/img/comentarios/m3.jpeg
+  - /bin/cp assets/img/comentarios/m4.jpeg $DEPLOYPATH/assets/img/comentarios/m4.jpeg
+  - /bin/cp assets/img/comentarios/m5.jpeg $DEPLOYPATH/assets/img/comentarios/m5.jpeg
+  - /bin/cp assets/img/comentarios/m6.jpeg $DEPLOYPATH/assets/img/comentarios/m6.jpeg
+  - /bin/cp assets/img/comentarios/m7.jpeg $DEPLOYPATH/assets/img/comentarios/m7.jpeg
